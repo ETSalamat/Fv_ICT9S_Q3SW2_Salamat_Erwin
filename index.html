@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<title>Q3 Seatwork 2</title>
+	<style>
+		body{
+			background-image:url('https://static.wikia.nocookie.net/spongebob/images/9/9d/Man_Ray_Returns_001.png/revision/latest/scale-to-width-down/1000?cb=20171001162510');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+		}
+		table{
+			width: 400px;
+			height: 250px;
+		}
+		#Chars{
+			width: 200px;
+			height: 200px;
+		}
+		#Bb{
+			width:500px;
+			display: grid;
+			margin: auto;
+		}
+		h4,p,h1{
+			font-family: Berlin Sans FB;
+			text-align: center;
+		}
+		#chareferences{
+			margin: auto;
+			border: solid;
+			border-radius: 5px;
+			border-color:#1C9EE2 ;
+			background-color: #76BAE8;
+			width: 100px;
+			height:30px;
+		}
+		#references{
+			margin: auto;
+			border: solid;
+			border-radius: 5px;
+			border-color:white ;
+			background-color: grey;
+			width: 100px;
+			height: 30px;
+		}
+		table{
+			margin: auto;
+		}
+		.container{
+			display: grid;
+			justify-content: center;
+			align-items: center;
+		}
+		#charform{
+			margin: auto;
+			border: solid;
+			border-radius: 5px;
+			border-color:gainsboro;
+			background-color: sandybrown;
+			width:;
+			height:;
+		}
+	</style>
+</head>
+<body>
+<center>
+	<h1 class="text-white bg-info">🌊 Bikini Bottom ⚓</h1>
+</center>
+
+<div class="container">
+<div class="row">
+
+<table class="table-hover table-dark table-bordered">
+	<tr>
+	<td class="bg-warning">
+		<div class="col-md-4">
+			<img id="Chars" class="img-fluid-rounded" src="https://static.wikia.nocookie.net/nickelodeon/images/7/79/SpongeBob-SquarePants.jpg/revision/latest/scale-to-width-down/150?cb=20180104021451"> 
+		</div>
+		<div>
+			<h4>Spongebob</h4>
+			<p>He is a cheerful and enthusiastic yellow sponge who lives in a pineapple house and loves to work at the Krusty Krab.</p>
+		</div>
+		<div id="chareferences"><p style="text-align: center;"><a href="https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_(character)">Learn More!</a></p></div>
+	</td>
+	<td class="bg-success">
+		<div class="col-md-4">
+			<img id="Chars" class="img-fluid-rounded" src="https://static.wikia.nocookie.net/nickelodeon/images/9/9e/SpongeBob-Patrick.jpg/revision/latest/scale-to-width-down/150?cb=20180104021928">
+		</div>
+		<div>
+			<h4>Patrick</h4>
+			<p>He is a joyful and innocent pink starfish who lives under a rock and is Spongebob's best friend.</p>
+		</div>
+		<div id="chareferences"><p style="text-align: center;"><a href="https://spongebob.fandom.com/wiki/Patrick_Star">Learn More!</a></p></div>
+	</td>
+	<td class="bg-primary">
+		<div class="col-md-4">
+			<img id="Chars" class="img-fluid-rounded" src="https://static.wikia.nocookie.net/nickelodeon/images/f/fe/SpongeBob-Squidward.jpg/revision/latest/scale-to-width-down/150?cb=20180104021929">
+		</div>
+		<div>
+			<h4>Squidward</h4>
+			<p>He is a bad-tempered and grumpy octopus who lives inside an Easter Island head house and is a co-worker of Spongebob.</p>
+		</div>
+		<div id="chareferences"><p style="text-align: center;"><a href="https://spongebob.fandom.com/wiki/Squidward_Tentacles">Learn More!</a></p></div>
+	</td>
+	</tr>
+</table>
+
+</div>
+</div>
+
+	<div class="table">
+	<table class="table-bordered table-dark table-hover">
+		<tr><div class="row">
+			<td class="bg-white">
+			<img id="Bb" class="img-fluid-rounded" src="https://static.wikia.nocookie.net/spongebob/images/2/26/Bubbletown_002.png/revision/latest/scale-to-width-down/1000?cb=20181028171458">
+			<p class="text-dark">A photo of the city of Bikini Bottom!</p>
+			</td>
+		</div></tr>
+	</table>
+	</div>
+<br>
+
+<div id="charform">
+<h1 style="color: whitesmoke;">Character Form</h1>
+<form>
+	<div class="row">
+		<div class="col-md-12">
+			<label class="bg-primary" for="name">Info</label>
+			<input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8">
+			<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+		</div>
+		<div class="col-md-4">
+			<input type="text" class="form-control" id="birthdate" placeholder="Enter birthdate" name="birthdate">
+		</div>
+		<!--<div class="col-md-6">
+			<input type="password" class="form-control" placeholder="password" name="pswd">
+		</div>-->
+	</div>
+<br>
+<div class="row">
+	<div class="col-md-6">
+		<div class="form-input">
+			<center><label for="question1" class="form-check-label bg-primary">Did/do you enjoy watching Spongebob?</label>
+			
+			<br>
+				<input id="yes" type="radio" value="yes" name="question1" class="form-check-input">Yes
+			<br>
+				<input id="no" type="radio" value="yes" name="question1" class="form-check-input">No</center>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<label class="bg-warning" for="comment1">What is your favorite show/cartoon? (if selected no.)</label>
+		<textarea class="form-control" name="comment3" id="comment3" placeholder="insert your comment here"></textarea>
+	</div>
+</div>
+<br>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="form-group">
+				<label class="bg-info" for="sell">Select your favorite character</label>
+				<select class="form-control" id="sell">
+					<option>Spongebob</option>
+					<option>Patrick</option>
+					<option>Squidward</option>
+					<option>Other..</option>
+				</select>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<label class="bg-warning" for="comment1">Who and why is this your favorite character?</label>
+			<textarea class="form-control" name="comment3" id="comment3" placeholder="insert your comment here"></textarea>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6">
+			<label class="bg-info" for="comment1">Why is this your favorite character?</label>
+			<textarea class="form-control" name="comment1" id="comment1" placeholder="insert your comment here"></textarea>
+		</div>
+			<!--<br>
+			<label class="form-check-label">
+				<input type="radio" class="form-check-input" name="optradio">Option 1
+			</label>-->
+	</div>
+<br>
+	<div class="row">
+		<div class="col-md-6">
+			<label class="bg-info" for="comment1">Who and why is this your favorite character? (if selected other.)</label>
+			<textarea class="form-control" name="comment2" id="comment2" placeholder="insert your comment here"></textarea>
+		</div>
+		
+		<div class="col-md-6">
+			<center><input type="submit" id="submit"></center>
+			<center><input type="reset" id="reset"></center>
+		</div>
+
+	</div>
+	<!-- <div class="col-md-6">
+		<button type="button" class="btn-sm">Gmail</button>
+		<br>
+		<button type="button" class="btn-primary btn-lg btn-block">Large and Block</button>
+		<br>
+		<button type="button" class="btn-opt-outline-danger">Outline</button>
+	</div>*
+<br>/ 
+	<div class="row">
+		<div class="col-md-6">
+			<div class="alert: alert-success" >
+				<strong>Success:</strong> Indicates a successful or positive action
+			</div>
+		</div>
+	</div>-->
+</form>
+</div>
+<br><br>
+
+	<div id="references"><p style="text-align: center;"><a href="https://docs.google.com/document/d/13rCEpkifq_u__5bcl4L1VCu26YN6UxObBdKd2-j0m14/edit?usp=sharing ">References</a></p></div>
+
+</body>
+</html>
